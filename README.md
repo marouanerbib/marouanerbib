@@ -1,39 +1,21 @@
-### Salut, moi c'est Marouane 👋
+# Marouane Rbib
 
-Élève ingénieur en 3ème année, spécialisation **Sciences de Données et Digitalisation** (ECC). Je m'intéresse à la data science au sens large : comprendre un jeu de données, en tirer un modèle qui tient la route, et le rendre utilisable jusqu'au bout — pas juste jusqu'au notebook.
+Data Science — Cycle Ingénieur 3A, Sciences de Données et Digitalisation (ECC)
 
-Ce que j'aime faire : passer d'un problème métier flou ("on veut mieux connaître nos clients", "prédire la puissance d'une éolienne") à quelque chose de concret et mesurable.
+## Compétences
 
----
+**Langages / Data** : Python · SQL
+**ML / DL** : scikit-learn · PyTorch · Keras / TensorFlow
+**Data Engineering** : dbt · DuckDB · SQLite
+**Déploiement** : Docker · FastAPI
 
-#### Ce que j'ai fait récemment
+## Projets
 
-**Segmentation client (CVM Télécom)**
-Segmentation de 8000 clients prépayés en 8 segments avec K-Means, à partir de leurs usages (recharge, VAS, appels, data). Profiling de chaque segment + recommandations d'actions marketing ciblées.
-`pandas` · `scikit-learn` · `matplotlib/seaborn/plotly`
-
-**API de prédiction éolienne (MLOps)**
-Réseau de neurones (PyTorch) qui prédit la puissance produite par une éolienne à partir de 75 capteurs, exposé via une API FastAPI et conteneurisé avec Docker. R² de 0.99 sur le jeu de test.
-`PyTorch` · `FastAPI` · `Docker`
-
-**Pipelines de données avec dbt**
-Deux pipelines ETL construits avec dbt + DuckDB : l'un pour analyser des avis Google Play Store (avec analyse de sentiment), l'autre avec une vraie modélisation dimensionnelle Kimball (star schema, SCD Type 2).
-`dbt` · `DuckDB` · `Python`
-
-**Deep Learning avec Keras**
-Un DNN pour la classification de spams et un CNN pour la reconnaissance de chiffres manuscrits (MNIST, 99% d'exactitude).
-`Keras` · `TensorFlow` · `scikit-learn`
-
-**Analyse de réseau**
-Détection de communautés sur un graphe du Fediverse (clustering spectral, analyse de la distribution des degrés).
-`NetworkX` · `Python`
-
----
-
-#### Stack
-
-`Python` · `pandas` · `numpy` · `scikit-learn` · `PyTorch` · `Keras/TensorFlow` · `SQL` · `dbt` · `DuckDB` · `Docker` · `FastAPI`
-
----
-
-*Toujours en train d'apprendre — n'hésitez pas à me contacter si un projet vous intéresse.*
+| Projet | Description | Stack |
+|---|---|---|
+| Segmentation client (CVM) | Segmentation K-Means de 8000 clients télécom en 8 segments, avec profiling et plan d'activation marketing | pandas, scikit-learn |
+| Wind Power Prediction API | Prédiction de la puissance produite par une éolienne (75 capteurs), API REST conteneurisée — R² = 0.99 | PyTorch, FastAPI, Docker |
+| Deep Learning (Keras) | Classification de spams (DNN, 94% acc.) et reconnaissance de chiffres manuscrits (CNN, MNIST, 99% acc.) | Keras, TensorFlow |
+| Pipelines dbt | ETL sur des avis Google Play Store (analyse de sentiment) et modélisation dimensionnelle Kimball (star schema, SCD2) | dbt, DuckDB |
+| Community Detection | Girvan-Newman, modularité et clustering spectral, validés sur le réseau Karate Club | NetworkX, scikit-learn |
+| Financial Indicators Pipeline | Pipeline de récupération de données financières via API, calcul d'indicateurs, export Excel | Python, SQLite |
