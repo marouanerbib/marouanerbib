@@ -1,6 +1,6 @@
 # Marouane Rbib
 
-Data Science — Cycle Ingénieur 3A, Sciences de Données et Digitalisation (ECC)
+Ingénieur Data Science — Junior
 
 ## Compétences
 
